@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import {Marker} from 'react-map-gl';
 import { Plane } from './Plane';
-import { pickColor, dataAttributes, newPickColor } from '../../helpers';
-import { find, sortBy } from 'lodash'
+import { dataAttributes, newPickColor } from '../../helpers';
 
 function Pins({data, pin_size, setHoverData, colors, found, categorical_colors, color_type}:any ) {
   const [clicked, setClicked] = useState<number | undefined>(undefined)

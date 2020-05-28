@@ -4,7 +4,7 @@ import { MapPins } from './MapPins';
 import { find, sortBy } from 'lodash'
 import { newPickColor } from '../../helpers';
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiYnJ5YW4tYXQtbG9va2VyIiwiYSI6ImNqczZ0N2k2czBwdXM0NG1zejVpN3VpczgifQ.VCz4Heo3BVl1QvVxPUy10g'; // Set your mapbox token here
+const MAPBOX_TOKEN = ''; // Set your mapbox token here
 const PADDING = 30;
 const TRASITION_DURATION = 1000;
 

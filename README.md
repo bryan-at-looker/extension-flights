@@ -12,3 +12,5 @@ application: flights {
     label: "Flights Example"
 }
 ```
+
+Update the mapbox token [here](./src/components/Map/MapEntry.tsx#L7)

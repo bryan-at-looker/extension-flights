@@ -1,16 +1,11 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { ExtensionContextData, ExtensionContext } from '@looker/extension-sdk-react';
-import { Code, Dialog, ModalContent, Paragraph, Button, MenuList, MenuItem, Heading, ModalHeader, ModalFooter, Box, ButtonOutline, Flex, FlexItem } from '@looker/components';
-import styled from 'styled-components'
+import React, { useState } from 'react';
+import { Dialog, Button, ButtonOutline, Flex, FlexItem } from '@looker/components';
 import { EmbeddedExplore } from './EmbeddedExplore';
 import { Link } from "react-router-dom"
 
 
 export function ExploreEntry ( {query_metadata, setExploreOpen, default_slug}: any) {
   const [qid, setQid] = useState<string | undefined>(undefined)
-  useEffect(()=>{
-    
-  },[])
 
   const saveExploreModal = () => {
     setExploreOpen(false)

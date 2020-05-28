@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { ExtensionContextData, ExtensionContext } from '@looker/extension-sdk-react';
-import { Code, Flex, Box, FlexItem } from '@looker/components';
+import React from 'react';
+import { Flex, FlexItem } from '@looker/components';
 import styled from 'styled-components'
 import { dataAttributes, localeFormatter } from '../../helpers';
 import { FlexProps } from 'styled-system';

@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { ExtensionContextData, ExtensionContext } from '@looker/extension-sdk-react';
-import { Code, Text } from '@looker/components';
+import React from 'react';
+import { Text } from '@looker/components';
 import styled from 'styled-components'
 
 export function HoverEntry({...props}: any) {

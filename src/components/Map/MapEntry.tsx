@@ -108,7 +108,7 @@ export function MapEntry({ data, ...props }: any) {
 }
 
 
-function getCategoricalColors (data, field, colors) {
+function getCategoricalColors (data: any, field: string, colors: any) {
   var categorical_colors: any = {}
   const measure = sortBy(data.map((r: any)=>{return r[field]}))
   let unique = Array.from(new Set(measure))

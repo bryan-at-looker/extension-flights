@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { ExtensionContextData, ExtensionContext } from '@looker/extension-sdk-react';
-import { Flex, Heading, Swatch, Text, FlexItem, Label, Box } from '@looker/components';
+import React from 'react';
+import { Flex, Swatch, FlexItem, Label } from '@looker/components';
 import styled from 'styled-components'
 import { sortBy } from 'lodash'
 import { newPickColor } from '../../helpers';

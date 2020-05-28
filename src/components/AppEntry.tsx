@@ -6,7 +6,6 @@ import { SidebarEntry } from './Sidebar/SidebarEntry';
 import { LegendEntry } from './Legend/LegendEntry';
 import { ExploreEntry } from './Explore/ExploreEntry';
 
-const SLUG = 'N6BfdSB0TmxNO3uwaL9VLk';
 const ANGLE_FIELD = 'ingest_with_previous_10.true_track'
 const LATITUDE_FIELD = 'location.latitude'
 const LONGITUDE_FIELD = 'location.longitude'
